@@ -1,119 +1,117 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Movie Tickets Booking</title>
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <div>
-            <label for="text">Pick a Movie:</label>
-            <select id="movies">
-                <option value="13">Titanic ($13.00)</option>
-                <option value="15">Pirates of carribean ($15.00)</option>
-                <option value="10">Eat Pray Love ($10.00)</option>
-            </select>
-            
-        </div><br>
-        <!--for seat display-->
-        <div class="container">
-            
-            <div class="row">
-                <div class="seat"></div>
-                <div class="seat"></div>
-                <div class="seat"></div>
-                <div class="seat"></div>
-                <div class="seat"></div>
-                <div class="seat"></div>
-                <div class="seat"></div>
-                <div class="seat"></div>
-                <div class="seat"></div>
-                <div class="seat"></div>
-          </div>
-          <div class="row">
-            <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-        </div>
-        <div class="row">
-            <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-        </div>
-        <div class="row">
-            <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-        </div>
-        <div class="row">
-            <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-        </div>
-        <div class="row">
-            <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-            <div class="seat"></div>
-        </div><br><br>
-        </div>
-        <!--To figure out the seat using color-->
-        <ul style="display: flex; list-style-type: none;">
-            <li  style="margin-right: 30px;">
-              <div class="seat"></div>
-              <h4>N/A</h4>
-            </li>
-            <li style="margin-right: 30px;">
-              <div class="seat selected"></div>
-              <h4>Selected</h4>
-            </li>
-            <li style="margin-right: 30px;">
-              <div class="seat occupied"></div>
-              <h4>Occupied</h4>
-            </li>
-        </ul>
-          <!--for showing information-->
-          <div class="details">
-          <h3>Movie Selected:</h3><label for="text" id="movie_name"></label>
-          <h3>Ticket Price:</h3><label for="number" id="ticket_price"></label>
-          <h3>Number of Seats Selected:</h3><label for="number" id="no_seats"></label>
-          <h3>Total Price:$</h3><label for="number" id="total_price"></label>
-        </div>
-        <button class="btn">BUY SEATS</button>
-        <link rel="stylesheet" href="script.js">
-    </body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Movie Ticket Booking</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div>
+        <label for="text">Pick a Movie:</label>
+        <select id="movie">
+            <option value="13">Titanic ($13.00)</option>
+            <option value="15">Pirates of carribean ($15.00)</option>
+            <option value="10">Eat Pray Love ($10.00)</option>
+        </select>
+        
+    </div><br>
+
+   
+
+    <div class="container">
+      
+
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat "></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+
+    </div><br>
+    <ul style="display: flex; list-style-type:none;">
+        <li style="margin-right: 30px;">
+          <div class="seat"></div>
+          <h4>N/A</h4>
+        </li>
+        <li style="margin-right: 30px;">
+          <div class="seat selected"></div>
+          <h4>Selected</h4>
+        </li>
+        <li style="margin-right: 30px;">
+          <div class="seat occupied"></div>
+          <h4>Occupied</h4>
+        </li>
+      </ul>
+   <p>
+        Movie selected : <span id="count"></span> <br>
+        Ticket Price:<span id="ticket_price"></span><br>
+        Number of Seats Selected:<span id="no_seats"></span><br>
+        Seats for a price of $<span id="total"></span><br>
+
+    </p>
+      
+        
+      <button class="btn">BUY SEATS</button>
+
+    <script src="script2.js"></script>
+  </body>
 </html>
