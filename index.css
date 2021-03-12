@@ -6,7 +6,7 @@
 }
 
 .row{
-    display: flex;
+    display: ;
 }
 .seat.selected_seats {
     background-color:green;
