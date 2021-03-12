@@ -9,15 +9,15 @@
         <div>
             <label for="text">Pick a Movie:</label>
             <select id="movies">
-                <option value="m1">Titanic ($13.00)</option>
-                <option value="m1">Pirates of carribean ($15.00)</option>
-                <option value="m1">Eat Pray Love ($10.00)</option>
+                <option value="13">Titanic ($13.00)</option>
+                <option value="15">Pirates of carribean ($15.00)</option>
+                <option value="10">Eat Pray Love ($10.00)</option>
             </select>
             
         </div><br>
         <!--for seat display-->
         <div class="container">
-            <div class="screen"></div>
+            
             <div class="row">
                 <div class="seat"></div>
                 <div class="seat"></div>
@@ -41,55 +41,55 @@
             <div class="seat"></div>
             <div class="seat"></div>
             <div class="seat"></div>
-      </div>
-      <div class="row">
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-  </div>
-  <div class="row">
-    <div class="seat"></div>
-    <div class="seat"></div>
-    <div class="seat"></div>
-    <div class="seat"></div>
-    <div class="seat"></div>
-    <div class="seat"></div>
-    <div class="seat"></div>
-    <div class="seat"></div>
-    <div class="seat"></div>
-    <div class="seat"></div>
-</div>
-<div class="row">
-    <div class="seat"></div>
-    <div class="seat"></div>
-    <div class="seat"></div>
-    <div class="seat"></div>
-    <div class="seat"></div>
-    <div class="seat"></div>
-    <div class="seat"></div>
-    <div class="seat"></div>
-    <div class="seat"></div>
-    <div class="seat"></div>
-</div>
-<div class="row">
-    <div class="seat"></div>
-    <div class="seat"></div>
-    <div class="seat"></div>
-    <div class="seat"></div>
-    <div class="seat"></div>
-    <div class="seat"></div>
-    <div class="seat"></div>
-    <div class="seat"></div>
-    <div class="seat"></div>
-    <div class="seat"></div>
-</div><br><br>
+        </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div><br><br>
         </div>
         <!--To figure out the seat using color-->
         <ul style="display: flex; list-style-type: none;">
@@ -98,14 +98,14 @@
               <h4>N/A</h4>
             </li>
             <li style="margin-right: 30px;">
-              <div class="seat selected_seats"></div>
+              <div class="seat selected"></div>
               <h4>Selected</h4>
             </li>
             <li style="margin-right: 30px;">
-              <div class="seat occupied_seats"></div>
+              <div class="seat occupied"></div>
               <h4>Occupied</h4>
             </li>
-          </ul>
+        </ul>
           <!--for showing information-->
           <div class="details">
           <h3>Movie Selected:</h3><label for="text" id="movie_name"></label>
@@ -114,5 +114,6 @@
           <h3>Total Price:$</h3><label for="number" id="total_price"></label>
         </div>
         <button class="btn">BUY SEATS</button>
+        <link rel="stylesheet" href="script.js">
     </body>
 </html>
